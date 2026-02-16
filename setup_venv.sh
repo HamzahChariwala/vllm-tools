@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-VENV_DIR="$HOME/vllm-tooling/venv"
+VENV_DIR="$HOME/vllm-tools/venv"
 
 echo "Setting up Python virtual environment for vLLM..."
 

@@ -1,8 +1,8 @@
 #!/bin/bash
 set -e
 
-VENV_DIR="$HOME/vllm-tooling/venv"
-VLLM_DIR="${1:-$HOME/vllm-tooling/vllm}"
+VENV_DIR="$HOME/vllm-tools/venv"
+VLLM_DIR="${1:-$HOME/vllm-tools/vllm}"
 
 echo "Performing incremental rebuild of vLLM..."
 
