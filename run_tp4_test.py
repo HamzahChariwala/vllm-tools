@@ -12,7 +12,7 @@ llm = LLM(
     enforce_eager=True,  # Disable CUDAGraph optimization
     profiler_config={
         "profiler": "torch",  # Use PyTorch profiler
-        "torch_profiler_dir": "/home/azureuser/vllm-tooling/tp_test_traces",
+        "torch_profiler_dir": "/home/azureuser/vllm-tools/tp2_test_traces",
         "torch_profiler_with_stack": False,
         "torch_profiler_with_flops": False,
         "torch_profiler_record_shapes": True,
