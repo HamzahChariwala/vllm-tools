@@ -1,0 +1,2 @@
+trace_storage/**/*.gz filter=lfs diff=lfs merge=lfs -text
+trace_storage/**/*.pt.trace.json.gz filter=lfs diff=lfs merge=lfs -text
